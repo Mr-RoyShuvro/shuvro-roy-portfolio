@@ -14,8 +14,15 @@ import img11 from "../../assets/k.png"
 import img12 from "../../assets/l.png"
 
 const Portfolio = () => (
-    <div className="bg-teal-800">
-        <div className="py-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
+    <div className="bg-[#0b1a20] pt-20">
+        <div className="text-center max-w-5xl mx-auto pb-10">
+            <h3 className="text-4xl font-bold pb-3 text-white">Showcasing Excellence in Web Development</h3>
+            <p className="text-white">Explore a refined portfolio that highlights my expertise in web development. This site features innovative
+                projects and a user-centric design, demonstrating my skills in modern technologies. Discover my journey and
+                envision how I can contribute to your next project.
+            </p>
+        </div>
+        <div className="pb-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
             {/* Portfolio -1 */}
             <div className="card" style={{ backgroundImage: `url('${img1}')` }}>
                 <div className="card-content">

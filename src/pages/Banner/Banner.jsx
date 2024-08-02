@@ -27,7 +27,7 @@ const Banner = () => {
                         repeat={Infinity}
                     />
                     <div className="mt-5">
-                        <button className="btn text-base text-white bg-gradient-to-r from-[#173c4b] via-[#1d617a] to-[#3d738a]  hover:from-[#173a47] hover:via-[#1d5266] hover:to-[#335e70]">Download My Resume</button>
+                        <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume</button>
                     </div>
                 </div>
                 <div className="w-1/2 px-2">
