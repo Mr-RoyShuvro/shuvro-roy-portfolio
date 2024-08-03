@@ -1,15 +1,15 @@
-import Navbar from "../../components/Navbar";
 import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
 import Portfolio from "../Portfolio/Portfolio";
-import PortfolioCard from "../Portfolio/PortfolioCard";
+import Services from "../Portfolio/Services";
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Banner></Banner>
             <Portfolio></Portfolio>
-            <PortfolioCard></PortfolioCard>
+            <Services></Services>
+            <Contact></Contact>
         </div>
     );
 };

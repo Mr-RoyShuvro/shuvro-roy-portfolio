@@ -4,7 +4,7 @@ import { IoEyeOutline } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 
 
-export default function PortfolioCard() {
+export default function Services() {
 
     return (
         <div className="bg-[#0b1a20]">

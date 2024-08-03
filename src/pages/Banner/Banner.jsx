@@ -5,9 +5,9 @@ import banner from '../../assets/banner1.png'
 
 const Banner = () => {
     return (
-        <div className="h-screen bg-gradient-to-r from-[#0b1a20] via-[#11252c] to-[#102731]">
-            <div className="flex">
-                <div className="flex-1 py-48 px-10">
+        <div className="md:h-screen bg-gradient-to-r from-[#0b1a20] via-[#11252c] to-[#102731]">
+            <div className="flex flex-col-reverse md:flex-row">
+                <div className="flex-1 py-10 md:py-48 px-10">
                     <div>
                         <Name></Name>
                     </div>
@@ -30,7 +30,7 @@ const Banner = () => {
                         <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume</button>
                     </div>
                 </div>
-                <div className="w-1/2 px-2">
+                <div className="w-1/2 px-2 ml-28 md:ml-0">
                     <img className="" src={banner} alt="" />
                 </div>
             </div>
