@@ -51,7 +51,7 @@ export default function Services() {
                                     color: "white"
                                 }}
                             >
-                                <div className="flex justify-center pt-10 text-7xl text-teal-500">
+                                <div className="flex justify-center pt-10 text-7xl text-[#29ffff]">
                                     <GrMonitor></GrMonitor>
                                 </div>
                                 <div className="pt-5">
@@ -103,7 +103,7 @@ export default function Services() {
                                     color: "white"
                                 }}
                             >
-                                <div className="flex justify-center pt-10 text-7xl text-teal-500">
+                                <div className="flex justify-center pt-10 text-7xl text-[#29ffff]">
                                     <IoEyeOutline></IoEyeOutline>
                                 </div>
                                 <div className="pt-5">
@@ -155,7 +155,7 @@ export default function Services() {
                                     color: "white"
                                 }}
                             >
-                                <div className="flex justify-center pt-10 text-7xl text-teal-500">
+                                <div className="flex justify-center pt-10 text-7xl text-[#29ffff]">
                                     <MdOutlineBusinessCenter></MdOutlineBusinessCenter>
                                 </div>
                                 <div className="pt-5">
