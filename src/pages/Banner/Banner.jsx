@@ -1,6 +1,10 @@
 import { TypeAnimation } from "react-type-animation";
 import Name from "./Name";
 import banner from '../../assets/banner1.png'
+import { LuDownload } from "react-icons/lu";
+import { Link } from "react-router-dom";
+import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { VscGithub } from "react-icons/vsc";
 
 
 const Banner = () => {
@@ -27,7 +31,23 @@ const Banner = () => {
                         repeat={Infinity}
                     />
                     <div className="mt-5">
-                        <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume</button>
+                        <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
+                            <LuDownload className="text-2xl text-white"></LuDownload>
+                        </button>
+                        <div className="flex gap-5 mt-5 pl-10">
+                            <Link to="https://www.facebook.com/shuvro.roy.315">
+                                <FaFacebookSquare className="w-5 h-5 bg-w text-[#1ca4df]"></FaFacebookSquare>
+                            </Link>
+                            <Link to="https://www.instagram.com/mrroy_shuvo/">
+                                <FaInstagram className="w-5 h-5 bg-w text-[#1ca4df]"></FaInstagram>
+                            </Link>
+                            <Link to="https://www.linkedin.com/in/shuvro-roy-1bba66308/">
+                                <FaLinkedin className="w-5 h-5 bg-w text-[#1ca4df]"></FaLinkedin>
+                            </Link>
+                            <Link to="https://github.com/Mr-RoyShuvro">
+                                <VscGithub className="w-5 h-5 bg-w text-[#1ca4df]"></VscGithub>
+                            </Link>
+                        </div>
                     </div>
                 </div>
                 <div className="w-1/2 px-2 ml-28 md:ml-0">

@@ -1,6 +1,6 @@
 import { GrLocation } from "react-icons/gr";
 import { HiOutlineMail } from "react-icons/hi";
-import { LuPhone } from "react-icons/lu";
+import { LuDownload, LuPhone } from "react-icons/lu";
 
 const Contact = () => {
     return (
@@ -91,7 +91,9 @@ const Contact = () => {
                     </div>
                     {/* btn */}
                     <div className="form-control mt-6">
-                        <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] border-none">Download My Resume</button>
+                        <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
+                            <LuDownload className="text-2xl text-white ml-3"></LuDownload>
+                        </button>
                     </div>
                 </div>
             </div>
