@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
 
@@ -33,14 +33,17 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content text-[#2fc1ff] font-semibold bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                       {navLinks}
+                        {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-2xl font-bold text-[#2fc1ff]">Shuvro Roy</a>
+                <a className="btn btn-ghost text-2xl font-bold text-[#27c2c2]">
+                    <img className="w-14 h-12" src={logo} alt="" />
+                    Shuvro Roy
+                </a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-[#2fc1ff] font-semibold">
-                   {navLinks}
+                <ul className="menu menu-horizontal px-1 text-[#27c2c2] font-semibold">
+                    {navLinks}
                 </ul>
             </div>
             <div className="navbar-end">
