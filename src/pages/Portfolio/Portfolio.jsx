@@ -33,7 +33,7 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://techtron-shop.web.app/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/techtron-shop-client-project10">
                             <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
@@ -52,10 +52,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://react-event-management-pro9.web.app/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/react-event-management-project9">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -70,10 +70,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://react-dragon-news-auth-f8c82.web.app/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/react-dragon-news-auth">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -88,10 +88,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://664afa59abb34a71a0c6e771--lambent-eclair-407921.netlify.app/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/react-donation-campaign-project8">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -106,10 +106,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://whispering-liquid.surge.sh/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/react-career-hub-project">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -124,10 +124,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://giant-breakfast.surge.sh/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/react-course-registration-pro7">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -142,10 +142,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://659901f019fbf1a6f8432085--boisterous-cat-1f73e3.netlify.app/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/gamer-Zone-website">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -160,10 +160,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://absorbing-purpose.surge.sh/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/react-knowledge-cafe">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -178,10 +178,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://mr-royshuvro.github.io/gamer-Zone-website/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/gamer-Zone-website">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -196,10 +196,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://mr-royshuvro.github.io/flower-shop-website/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/flower-shop-website">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -214,10 +214,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://mr-royshuvro.github.io/fruit-burst-assignment3/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/fruit-burst-assignment3">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -232,10 +232,10 @@ const Portfolio = () => (
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://656585a947d92e2e0285a19e--storied-haupia-37be14.netlify.app/">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Programming-Hero-Web-Course4/b8a5-summer-sale-Mr-RoyShuvro">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>

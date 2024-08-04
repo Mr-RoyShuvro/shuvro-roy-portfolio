@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png"
 
 const Navbar = () => {
@@ -9,7 +9,6 @@ const Navbar = () => {
             <li><NavLink to='/about'>About</NavLink></li>
             <li><NavLink to='/portfolio'>Portfolio</NavLink></li>
             <li><NavLink to='/service'>Services</NavLink></li>
-            <li><NavLink to='/contact'>Contact</NavLink></li>
         </>
 
     return (
@@ -47,7 +46,11 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Login</a>
+                <Link to='/contact'>
+                    <button className="btn border-none text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b]">
+                        Contact
+                    </button>
+                </Link>
             </div>
         </div>
     );

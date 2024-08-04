@@ -1,6 +1,7 @@
 import { GrLocation } from "react-icons/gr";
 import { HiOutlineMail } from "react-icons/hi";
 import { LuDownload, LuPhone } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
@@ -48,7 +49,7 @@ const Contact = () => {
                                         <hr />
                                     </div>
                                     <div className="form-control mt-6">
-                                        <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Send</button>
+                                        <button className="btn border-none text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Send</button>
                                     </div>
                                 </form>
                             </div>
@@ -91,9 +92,11 @@ const Contact = () => {
                     </div>
                     {/* btn */}
                     <div className="form-control mt-6">
-                        <button className="btn text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
-                            <LuDownload className="text-2xl text-white ml-3"></LuDownload>
-                        </button>
+                        <Link to="https://drive.google.com/file/d/1eS2BXeZfj2g7_kdrdXIW5np7VXx1jfLJ/view?usp=sharing">
+                            <button className="btn border-none text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
+                                <LuDownload className="text-2xl text-white ml-3"></LuDownload>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

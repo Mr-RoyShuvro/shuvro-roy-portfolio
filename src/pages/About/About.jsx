@@ -15,7 +15,7 @@ const About = () => {
                 <div className="col-start-1 bg-[#000e0e] p-5 shadow-2xl border-r-8 border-[#29ffff] rounded-xl">
                     <div className="flex justify-between">
                         <h3 className="text-xl font-semibold text-white">Metropolitan University, Sylhet</h3>
-                        <p>2018 - 2022</p>
+                        <p className="text-gray-200">2018 - 2022</p>
                     </div>
                     <h4 className="text-base text-white font-medium">Bachelor of Science in Computer Science & Engineering</h4>
                     <p className="text-white">CGPA: 3.41 out of 4</p>
@@ -25,7 +25,7 @@ const About = () => {
                 <div className="col-start-2  bg-[#000e0e] p-5 shadow-2xl border-l-8 border-[#29ffff] rounded-xl">
                     <div className="flex justify-between">
                         <h3 className="text-xl font-semibold text-white">Sylhet Commerce College</h3>
-                        <p>2015 - 2016</p>
+                        <p className="text-gray-200">2015 - 2016</p>
                     </div>
                     <h4 className="text-base text-white font-medium">Higher Secondary School Certificate</h4>
                     <p className="text-white"> GPA:4.25 out of 5</p>
@@ -33,7 +33,7 @@ const About = () => {
                 <div className="col-end-1 col-start-1 bg-[#000e0e] p-5 shadow-2xl border-r-8 border-[#29ffff] rounded-xl">
                     <div className="flex justify-between">
                         <h3 className="text-xl font-semibold text-white">Alhaj Abdul Moktadir Academy</h3>
-                        <p>2013 - 2014</p>
+                        <p className="text-gray-200">2013 - 2014</p>
                     </div>
                     <h4 className="text-base text-white font-medium">Secondary School Certificate</h4>
                     <p className="text-white">GPA: 4.78 out of 5</p>

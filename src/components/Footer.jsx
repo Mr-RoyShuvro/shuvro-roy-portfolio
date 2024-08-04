@@ -20,17 +20,17 @@ const Footer = () => {
                 </nav>
                 <nav className="space-y-3">
                     <h6 className="footer-title text-[#29ffff]">Services</h6>
-                    <a className="link link-hover">Web Develope</a>
-                    <a className="link link-hover">Web Design</a>
-                    <a className="link link-hover">Fronted Design</a>
-                    <a className="link link-hover">MERN Stack Project</a>
+                    <a className="link text-gray-400 link-hover">Web Develope</a>
+                    <a className="link text-gray-400 link-hover">Web Design</a>
+                    <a className="link text-gray-400 link-hover">Fronted Design</a>
+                    <a className="link text-gray-400 link-hover">MERN Stack Project</a>
                 </nav>
                 <nav className="space-y-3">
                     <h6 className="footer-title text-[#29ffff]">Company</h6>
-                    <Link to="/about" className="link link-hover">About</Link>
-                    <Link to="/portfolio" className="link link-hover">Portfolio</Link>
-                    <Link to="/service" className="link link-hover">Service</Link>
-                    <Link to="/contact" className="link link-hover">Contact</Link>
+                    <Link to="/about" className="link text-gray-400 link-hover">About</Link>
+                    <Link to="/portfolio" className="link text-gray-400 link-hover">Portfolio</Link>
+                    <Link to="/service" className="link text-gray-400 link-hover">Service</Link>
+                    <Link to="/contact" className="link text-gray-400 link-hover">Contact</Link>
                 </nav>
                 <nav className="space-y-3">
                     <h6 className="footer-title text-[#29ffff]">Follow me</h6>
@@ -50,15 +50,15 @@ const Footer = () => {
                     </div>
                     <div className="flex gap-2">
                         <GrLocation className="w-5 h-5 text-[#29ffff]"></GrLocation>
-                        <p>27/3 jalalabad, Amberkhan, Sylhet</p>
+                        <p className="text-gray-300">27/3 jalalabad, Amberkhan, Sylhet</p>
                     </div>
                     <Link className="flex gap-2">
                         <HiOutlineMail className="w-5 h-5 text-[#29ffff]"></HiOutlineMail>
-                        <p>shuvroroyshuvo@gmail.com</p>
+                        <p className="text-gray-300">shuvroroyshuvo@gmail.com</p>
                     </Link>
                     <Link className="flex gap-2">
                         <LuPhone className="w-5 h-5 text-[#29ffff]"></LuPhone>
-                        <p>+8801785765702</p>
+                        <p className="text-gray-300">+8801785765702</p>
                     </Link>
                 </nav>
             </footer>
