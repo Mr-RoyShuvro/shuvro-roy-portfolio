@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./styles.css";
+import img0 from "../../assets/revmax.png"
 import img1 from "../../assets/a.png"
 import img2 from "../../assets/b.png"
 import img3 from "../../assets/c.png"
@@ -23,6 +24,24 @@ const Portfolio = () => (
             </p>
         </div>
         <div className="pb-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
+            {/* Portfolio -0 */}
+            <div className="card" style={{ backgroundImage: `url('${img0}')` }}>
+                <div className="card-content">
+                    <h2 className="card-title">RevMax Garage</h2>
+                    <p className="card-body h-72">
+                        RevMax Garage is a full-featured car mechanic garage website allowing users to book appointments for
+                        car repairs and explore various automotive products.
+                    </p>
+                    <div className="flex justify-around">
+                        <Link to="https://revmax-garage.web.app/">
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                        </Link>
+                        <Link to="https://github.com/Mr-RoyShuvro/revmax-garage-client">
+                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
             {/* Portfolio -1 */}
             <div className="card" style={{ backgroundImage: `url('${img1}')` }}>
                 <div className="card-content">
