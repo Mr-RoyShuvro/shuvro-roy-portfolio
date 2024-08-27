@@ -37,7 +37,7 @@ const Portfolio = () => (
                             <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/revmax-garage-client">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Portfolio = () => (
                             <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
                         </Link>
                         <Link to="https://github.com/Mr-RoyShuvro/techtron-shop-client-project10">
-                            <button className="btn text-base text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
                         </Link>
                     </div>
                 </div>

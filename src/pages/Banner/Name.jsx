@@ -20,8 +20,8 @@ const Name = () => {
     },
     h1: {
       color: 'hsl(0, 0%, 28%)',
-      fontSize: '30px',
-      fontWeight: 'bold',
+      fontSize: '40px',
+      fontWeight: 'bolder',
       fontFamily: 'monospace',
       letterSpacing: '7px',
       cursor: 'pointer',

@@ -1,10 +1,10 @@
-import { TypeAnimation } from "react-type-animation";
 import Name from "./Name";
 import banner from '../../assets/banner1.png'
 import { LuDownload } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
+import SkillName from "./SkillName";
 
 
 const Banner = () => {
@@ -12,28 +12,14 @@ const Banner = () => {
         <div className="md:h-screen bg-gradient-to-r from-[#0b1a20] via-[#11252c] to-[#102731]">
             <div className="flex flex-col-reverse md:flex-row">
                 <div className="flex-1 py-10 md:py-48 px-10">
-                    <div>
+                    <div className="pb-5">
                         <Name></Name>
                     </div>
-                    <TypeAnimation
-                        sequence={[
-                            // Same substring at the start will only be typed once, initially
-                            'Creative MERN Stack Dev.',
-                            1000,
-                            'Creative React Specialist',
-                            1000,
-                            'Creative Software Engineer',
-                            1000,
-
-                        ]}
-                        speed={50}
-                        style={{ fontSize: '2.5em', fontWeight: 'bold', color: '#008B8B' }}
-                        repeat={Infinity}
-                    />
-                    <div className="mt-5">
+                    <SkillName></SkillName>
+                    <div className="mt-14">
                         <Link to="https://drive.google.com/file/d/1kOWHTdjqUZHx2swd1pi6zbbFY50CGvT2/view?usp=sharing">
-                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
-                                <LuDownload className="text-2xl text-white"></LuDownload>
+                            <button className="btn text-sm md:text-base border-none text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
+                                <LuDownload className="text-xl md:text-2xl text-white"></LuDownload>
                             </button>
                         </Link>
                         <div className="flex gap-5 mt-5 pl-10">

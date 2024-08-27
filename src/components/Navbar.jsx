@@ -35,8 +35,8 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-2xl font-bold text-[#27c2c2]">
-                    <img className="w-14 h-12" src={logo} alt="" />
+                <a className="btn btn-ghost text-lg md:text-2xl font-bold text-[#27c2c2]">
+                    <img className="w-8 md:w-14 h-6 md:h-12" src={logo} alt="" />
                     Shuvro Roy
                 </a>
             </div>
