@@ -17,8 +17,8 @@ import img12 from "../../assets/l.png"
 const Portfolio = () => (
     <div className="bg-[#0b1a20] pt-20">
         <div className="text-center max-w-5xl mx-auto pb-10">
-            <h3 className="text-4xl font-bold pb-3 text-white">Showcasing Excellence in Web Development</h3>
-            <p className="text-white">Explore a refined portfolio that highlights my expertise in web development. This site features innovative
+            <h3 className="text-xl md:text-4xl font-bold pb-3 text-white px-10 md:px-0">Showcasing Excellence in Web Development</h3>
+            <p className="text-white text-sm md:text-base px-3 md:px-0">Explore a refined portfolio that highlights my expertise in web development. This site features innovative
                 projects and a user-centric design, demonstrating my skills in modern technologies. Discover my journey and
                 envision how I can contribute to your next project.
             </p>

@@ -63,8 +63,8 @@ const Footer = () => {
                 </nav>
             </footer>
             <footer className="footer bg-gradient-to-r from-[#040b0e] via-[#020e13] to-[#04141b] text-base-content border-t border-[#1c5974] px-10 py-4">
-                <div className="grid grid-cols-3">
-                    <img className="w-14 h-12 col-span-2" src={logo} alt="" />
+                <div className="grid grid-cols-2 md:grid-cols-3">
+                    <img className="w-14 h-12 md:col-span-2" src={logo} alt="" />
                     <p className="text-sm text-gray-400 pt-5">
                         © 2024 Shuvro Roy. All rights reserved.
                     </p>

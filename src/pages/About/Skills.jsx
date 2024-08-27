@@ -11,8 +11,8 @@ const Skills = () => {
     return (
         <div className="mt-32">
             <div className="max-w-4xl mx-auto">
-                <h3 className="text-3xl font-bold pb-3 text-white text-center">Skills & Expertise</h3>
-                <p className="text-white pb-10 text-center">
+                <h3 className="text-xl md:text-3xl font-bold pb-3 text-white text-center">Skills & Expertise</h3>
+                <p className="text-white pb-10 text-center px-3 md:px-0">
                     Showcasing a diverse set of technical skills and expertise, highlighting proficiency
                     in various programming languages, frameworks, and tools essential for web development and beyond.
                 </p>

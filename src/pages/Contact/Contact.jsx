@@ -7,8 +7,8 @@ const Contact = () => {
     return (
         <div className="bg-[#0b1a20] py-20">
             <div className="max-w-4xl mx-auto">
-                <h3 className="text-3xl font-bold pb-3 text-white text-center">Contact Information</h3>
-                <p className="text-white pb-10 text-center">
+                <h3 className="text-xl md:text-3xl font-bold pb-3 text-white text-center">Contact Information</h3>
+                <p className="text-white pb-10 text-center px-3 md:px-0">
                     Connect with me for any inquiries, collaborations, or just to say hello. Use the provided contact
                     information or fill out the message form below, and I’ll get back to you as soon as possible. Looking
                     forward to connecting!
@@ -17,7 +17,7 @@ const Contact = () => {
             <div className='flex flex-col md:flex-row max-w-6xl mx-auto'>
                 <div className="md:w-1/2 bg-gradient-to-r from-[#0f232c] via-[#032c3b] to-[#044561]">
                     <div className="px-20 pt-20">
-                        <h3 className="text-3xl font-bold pb-3 text-gray-300">Get in Touch</h3>
+                        <h3 className="text-2xl md:text-3xl font-bold pb-3 text-gray-300">Get in Touch</h3>
                         <p className="text-gray-300">
                             Have a question or want to collaborate? Send me a message, and I will
                             get back to you as soon as possible. Looking forward to connecting!
@@ -58,7 +58,7 @@ const Contact = () => {
                 </div>
                 <div className="md:w-1/2 bg-gradient-to-r from-[#044561] via-[#032c3b] to-[#0f232c] px-20 py-20 space-y-14 md:border-l-2 md:border-[#3dc5ff]">
                     <div>
-                        <h3 className="text-3xl font-bold pb-3 text-gray-300">Leave A Message</h3>
+                        <h3 className="text-2xl md:text-3xl font-bold pb-3 text-gray-300">Leave A Message</h3>
                         <p className="text-gray-300 pb-10">For inquiries, collaborations, or professional connections, feel free to reach out.
                             I am always available to discuss new opportunities and partnerships.</p>
                     </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                         </figure>
                         <div>
                             <h2 className="text-white text-xl font-semibold">Phone</h2>
-                            <p>+8801785765702</p>
+                            <p className="text-gray-200 pt-3">+8801785765702</p>
                         </div>
                     </div>
                     <div className="flex gap-5 items-center">
@@ -77,7 +77,7 @@ const Contact = () => {
                         </figure>
                         <div>
                             <h2 className="text-white text-xl font-semibold">Email</h2>
-                            <p>shuvroroyshuvo@gmail.com</p>
+                            <p className="text-gray-200 pt-3">shuvroroyshuvo@gmail.com</p>
                         </div>
 
                     </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                         </figure>
                         <div>
                             <h2 className="text-white text-xl font-semibold">Location</h2>
-                            <p>27/3 jalalabad, Amberkhana, Sylhet</p>
+                            <p className="text-gray-200 pt-3">27/3 jalalabad, Amberkhana, Sylhet</p>
                         </div>
                     </div>
                     {/* btn */}
