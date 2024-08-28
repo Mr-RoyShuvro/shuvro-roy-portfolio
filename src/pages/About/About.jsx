@@ -39,7 +39,6 @@ const About = () => {
                     <p className="text-white">GPA: 4.78 out of 5</p>
                 </div>
             </div>
-
             <Skills></Skills>
         </div>
     );
