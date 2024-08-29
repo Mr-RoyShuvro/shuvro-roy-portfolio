@@ -2,18 +2,26 @@ import Card from "react-animated-3d-card";
 import { GrMonitor } from "react-icons/gr";
 import { IoEyeOutline } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 export default function Services() {
 
     return (
         <div className="bg-[#0b1a20]">
-            <div className="text-center max-w-4xl mx-auto pt-20">
-                <h3 className="text-xl md:text-4xl font-bold pb-3 text-white">Cutting-Edge Web Solutions</h3>
-                <p className="text-white px-3 md:px-0">
-                    Delivering innovative web solutions, from sleek and responsive design to dynamic development and
-                    seamless e-commerce integration, ensuring your online presence is both impactful and user-friendly.
-                </p>
+            <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                <div className="text-center max-w-4xl mx-auto pt-20">
+                    <h3 className="text-xl md:text-4xl font-bold pb-3 text-white">Cutting-Edge Web Solutions</h3>
+                    <p className="text-white px-3 md:px-0">
+                        Delivering innovative web solutions, from sleek and responsive design to dynamic development and
+                        seamless e-commerce integration, ensuring your online presence is both impactful and user-friendly.
+                    </p>
+                </div>
             </div>
             <div
                 className="App"
@@ -183,6 +191,6 @@ export default function Services() {
                     </Card>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }

@@ -5,13 +5,17 @@ import { Link } from "react-router-dom";
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
 import SkillName from "./SkillName";
+// import ball from "../../assets/ball.gif"
 
 
 const Banner = () => {
     return (
         <div className="h-screen bg-gradient-to-r from-[#0b1a20] via-[#11252c] to-[#102731]">
-            <div className="flex flex-col-reverse md:flex-row">
-                <div className="flex-1 py-10 md:py-48 px-10">
+            <div className="flex flex-col-reverse md:flex-row relative">
+                {/* <img className="absolute top-0 left-0 p-0 m-0 w-48 h-48" src={ball} alt="" /> */}
+                <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" className="flex-1 py-10 md:py-48 px-10">
                     <div className="pb-5">
                         <Name></Name>
                     </div>

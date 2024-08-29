@@ -13,15 +13,23 @@ import img9 from "../../assets/i.png"
 import img10 from "../../assets/j.png"
 import img11 from "../../assets/k.png"
 import img12 from "../../assets/l.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Portfolio = () => (
     <div className="bg-[#0b1a20] pt-20">
-        <div className="text-center max-w-5xl mx-auto pb-10">
-            <h3 className="text-xl md:text-4xl font-bold pb-3 text-white px-10 md:px-0">Showcasing Excellence in Web Development</h3>
-            <p className="text-white text-sm md:text-base px-3 md:px-0">Explore a refined portfolio that highlights my expertise in web development. This site features innovative
-                projects and a user-centric design, demonstrating my skills in modern technologies. Discover my journey and
-                envision how I can contribute to your next project.
-            </p>
+        <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+            <div className="text-center max-w-5xl mx-auto pb-10">
+                <h3 className="text-xl md:text-4xl font-bold pb-3 text-white px-10 md:px-0">Showcasing Excellence in Web Development</h3>
+                <p className="text-white text-sm md:text-base px-3 md:px-0">Explore a refined portfolio that highlights my expertise in web development. This site features innovative
+                    projects and a user-centric design, demonstrating my skills in modern technologies. Discover my journey and
+                    envision how I can contribute to your next project.
+                </p>
+            </div>
         </div>
         <div className="pb-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
             {/* Portfolio -0 */}

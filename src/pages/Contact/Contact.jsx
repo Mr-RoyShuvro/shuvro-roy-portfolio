@@ -2,17 +2,25 @@ import { GrLocation } from "react-icons/gr";
 import { HiOutlineMail } from "react-icons/hi";
 import { LuDownload, LuPhone } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Contact = () => {
     return (
         <div className="bg-[#0b1a20] pt-20 pb-0 md:pb-20">
-            <div className="max-w-4xl mx-auto">
-                <h3 className="text-xl md:text-3xl font-bold pb-3 text-white text-center">Contact Information</h3>
-                <p className="text-white pb-10 text-center px-3 md:px-0">
-                    Connect with me for any inquiries, collaborations, or just to say hello. Use the provided contact
-                    information or fill out the message form below, and I’ll get back to you as soon as possible. Looking
-                    forward to connecting!
-                </p>
+            <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                <div className="max-w-4xl mx-auto">
+                    <h3 className="text-xl md:text-3xl font-bold pb-3 text-white text-center">Contact Information</h3>
+                    <p className="text-white pb-10 text-center px-3 md:px-0">
+                        Connect with me for any inquiries, collaborations, or just to say hello. Use the provided contact
+                        information or fill out the message form below, and I’ll get back to you as soon as possible. Looking
+                        forward to connecting!
+                    </p>
+                </div>
             </div>
             <div className='flex flex-col md:flex-row max-w-6xl mx-auto'>
                 <div className="md:w-1/2 bg-gradient-to-r from-[#0f232c] via-[#032c3b] to-[#044561]">
