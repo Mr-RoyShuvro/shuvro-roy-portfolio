@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                     <div className="flex gap-2">
                         <GrLocation className="w-5 h-5 text-[#29ffff]"></GrLocation>
-                        <p className="text-gray-300">27/3 jalalabad, Amberkhan, Sylhet</p>
+                        <p className="text-gray-300">27/3 jalalabad, Amberkhana, Sylhet</p>
                     </div>
                     <Link className="flex gap-2">
                         <HiOutlineMail className="w-5 h-5 text-[#29ffff]"></HiOutlineMail>

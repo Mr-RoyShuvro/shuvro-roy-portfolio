@@ -100,7 +100,7 @@ const Contact = () => {
                     </div>
                     {/* btn */}
                     <div className="form-control mt-6">
-                        <Link to="https://drive.google.com/file/d/1kOWHTdjqUZHx2swd1pi6zbbFY50CGvT2/view?usp=sharing">
+                        <Link to="https://drive.google.com/file/d/17DEqR5xbSooX-SnuYQ8tNrqzFhhFd1Qz/view?usp=sharing">
                             <button className="btn border-none text-sm md:text-base text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
                                 <LuDownload className="text-2xl md:text-2xl text-white ml-0 md:ml-3"></LuDownload>
                             </button>
