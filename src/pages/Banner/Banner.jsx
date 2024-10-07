@@ -21,7 +21,7 @@ const Banner = () => {
                     </div>
                     <SkillName></SkillName>
                     <div className="mt-14 flex flex-col justify-center md:justify-start items-center md:items-start">
-                        <Link to="https://drive.google.com/file/d/17DEqR5xbSooX-SnuYQ8tNrqzFhhFd1Qz/view?usp=sharing">
+                        <Link to="https://drive.google.com/file/d/12Vigj4VvOhHZ7D8jb27R8e29TYBQpaa0/view?usp=sharing">
                             <button className="btn text-sm md:text-base border-none text-white bg-gradient-to-r from-[#1b495c] via-[#046c92] to-[#1ca4df]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] ">Download My Resume
                                 <LuDownload className="text-xl md:text-2xl text-white"></LuDownload>
                             </button>

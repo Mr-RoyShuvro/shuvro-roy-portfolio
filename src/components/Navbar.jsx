@@ -35,10 +35,12 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-lg md:text-2xl font-bold text-[#27c2c2]">
-                    <img className="w-8 md:w-14 h-6 md:h-12" src={logo} alt="" />
-                    Shuvro Roy
-                </a>
+                <Link>
+                    <a className="btn btn-ghost text-lg md:text-2xl font-bold text-[#27c2c2]">
+                        <img className="w-8 md:w-14 h-6 md:h-12" src={logo} alt="" />
+                        Shuvro Roy
+                    </a>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-[#27c2c2] font-semibold">
