@@ -13,6 +13,7 @@ import img9 from "../../assets/i.png"
 import img10 from "../../assets/j.png"
 import img11 from "../../assets/k.png"
 import img12 from "../../assets/l.png"
+import img13 from "../../assets/TasteNest.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -75,7 +76,6 @@ const Portfolio = () => (
                     <p className="card-body h-72">
                         PartyMaker is an intuitive event planning platform designed to streamline organizing
                         and managing a wide variety of celebrations and gatherings.
-
                     </p>
                     <div className="flex justify-around">
                         <Link to="https://react-event-management-pro9.web.app/">
@@ -88,6 +88,24 @@ const Portfolio = () => (
                 </div>
             </div>
             {/* Portfolio -3 */}
+            <div className="card" style={{ backgroundImage: `url('${img13}')` }}>
+                <div className="card-content">
+                    <h2 className="card-title">TasteNest</h2>
+                    <p className="card-body h-72">
+                        TasteNest is a vibrant restaurant website that showcases the menu, ambiance, and unique dining
+                        experiences, inviting users to explore the restaurants essence.
+                    </p>
+                    <div className="flex justify-around">
+                        <Link to="https://foolish-aunt.surge.sh/">
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Live</button>
+                        </Link>
+                        <Link to="https://github.com/Mr-RoyShuvro/taste-nest-restaurant">
+                            <button className="btn text-base border-none text-white bg-gradient-to-r from-[#205970] via-[#0994c7] to-[#42b1e0]  hover:from-[#173a47] hover:via-[#217897] hover:to-[#3e7f9b] w-20">Github</button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+            {/* Portfolio -4 */}
             <div className="card" style={{ backgroundImage: `url('${img3}')` }}>
                 <div className="card-content">
                     <h2 className="card-title">The Dragon News</h2>
@@ -105,7 +123,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -4 */}
+            {/* Portfolio -5 */}
             <div className="card" style={{ backgroundImage: `url('${img4}')` }}>
                 <div className="card-content">
                     <h2 className="card-title">Donation Campaign</h2>
@@ -123,7 +141,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -5 */}
+            {/* Portfolio -6 */}
             <div className="card" style={{ backgroundImage: `url('${img5}')` }}>
                 <div className="card-content">
                     <h2 className="card-title">Career Hub</h2>
@@ -141,7 +159,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -6 */}
+            {/* Portfolio -7 */}
             <div className="card" style={{ backgroundImage: `url('${img6}` }}>
                 <div className="card-content">
                     <h2 className="card-title">Course Registration</h2>
@@ -159,7 +177,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -7 */}
+            {/* Portfolio -8 */}
             <div className="card" style={{ backgroundImage: `url('${img7}` }}>
                 <div className="card-content">
                     <h2 className="card-title">PH Tube</h2>
@@ -177,7 +195,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -8 */}
+            {/* Portfolio -9 */}
             <div className="card" style={{ backgroundImage: `url('${img8}` }}>
                 <div className="card-content">
                     <h2 className="card-title">Knowledge Cafe</h2>
@@ -195,7 +213,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -9 */}
+            {/* Portfolio -10 */}
             <div className="card" style={{ backgroundImage: `url('${img9}` }}>
                 <div className="card-content">
                     <h2 className="card-title">Gamer Zone</h2>
@@ -213,7 +231,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -10 */}
+            {/* Portfolio -11 */}
             <div className="card" style={{ backgroundImage: `url('${img10}` }}>
                 <div className="card-content">
                     <h2 className="card-title">Flower Shop</h2>
@@ -231,7 +249,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -11 */}
+            {/* Portfolio -12 */}
             <div className="card" style={{ backgroundImage: `url('${img11}` }}>
                 <div className="card-content">
                     <h2 className="card-title">Fruit Burst</h2>
@@ -249,7 +267,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             </div>
-            {/* Portfolio -12 */}
+            {/* Portfolio -13 */}
             <div className="card" style={{ backgroundImage: `url('${img12}` }}>
                 <div className="card-content">
                     <h2 className="card-title">Summer Sale</h2>
