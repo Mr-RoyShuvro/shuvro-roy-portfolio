@@ -11,7 +11,7 @@ import SkillName from "./SkillName";
 const Banner = () => {
     return (
         <div className="h-screen bg-gradient-to-r from-[#0b1a20] via-[#11252c] to-[#102731]">
-            <div className="flex flex-col-reverse md:flex-row relative">
+            <div className="flex flex-col-reverse md:flex-row relative pt-20 md:pt-0">
                 {/* <img className="absolute top-0 left-0 p-0 m-0 w-48 h-48" src={ball} alt="" /> */}
                 <div data-aos="fade-right"
                     data-aos-offset="300"

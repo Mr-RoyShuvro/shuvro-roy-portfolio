@@ -11,7 +11,7 @@ AOS.init();
 export default function Services() {
 
     return (
-        <div className="bg-[#0b1a20]">
+        <div className="bg-[#0b1a20] ">
             <div data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500">

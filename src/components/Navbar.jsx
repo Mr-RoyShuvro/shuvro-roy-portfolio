@@ -12,7 +12,8 @@ const Navbar = () => {
         </>
 
     return (
-        <div className="navbar bg-gradient-to-r from-[#0b1a20] via-[#11252c] to-[#102731]">
+        <div className="bg-gradient-to-r from-[#0b1a20] via-[#11252c] to-[#102731]">
+        <div className="navbar max-w-7xl mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,8 +37,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link>
-                    <a className="btn btn-ghost text-lg md:text-2xl font-bold text-[#27c2c2]">
-                        <img className="w-8 md:w-14 h-6 md:h-12" src={logo} alt="" />
+                    <a className="btn btn-ghost text-md md:text-2xl font-bold text-[#27c2c2]">
+                        <img className="w-8 md:w-14 h-6 md:h-12 mr-3" src={logo} alt="" />
                         Shuvro Roy
                     </a>
                 </Link>
@@ -54,6 +55,7 @@ const Navbar = () => {
                     </button>
                 </Link>
             </div>
+        </div>
         </div>
     );
 };

@@ -3,13 +3,13 @@ import { HiOutlineMail } from "react-icons/hi";
 import { LuDownload, LuPhone } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+// import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
 const Contact = () => {
     return (
-        <div className="bg-[#0b1a20] pt-20 pb-0 md:pb-20">
+        <div className="bg-[#0b1a20] pt-20 pb-0 md:pb-20 ">
             <div data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500">

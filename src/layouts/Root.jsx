@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 
 const Root = () => {
     return (
-        <div>
+        <div className="w-screen">
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
